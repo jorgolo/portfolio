@@ -1,0 +1,22 @@
+.image-responsive-wrapper {
+  --image-width: 449;
+  --image-height: 630;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-bottom: calc((1 / (var(--image-width) / var(--image-height)) ) * 100%);
+  }
+  & picture,
+  & img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

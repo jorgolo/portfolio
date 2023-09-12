@@ -1,0 +1,1 @@
+// Empty on porpuse for the CopyPlugin of Webpack

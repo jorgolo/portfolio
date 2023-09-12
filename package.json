@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio",
+  "version": "2.0.0",
+  "description": "My new portfolio website",
+  "scripts": {
+    "dev": "NODE_ENV=development yarn webpack --mode development --watch --progress --color",
+    "prod": "NODE_ENV=production yarn webpack --mode production --progress"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "cssnano": "^6.0.1",
+    "cssnano-preset-advanced": "^6.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.27",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.1.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-remove-empty-scripts": "^1.0.3",
+    "webpack-shell-plugin-next": "^2.3.1",
+    "wepack-cli": "^0.0.1-security"
+  }
+}

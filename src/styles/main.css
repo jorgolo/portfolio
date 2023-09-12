@@ -1,0 +1,57 @@
+@import 'fonts.css';
+@import 'helpers.css';
+@import 'main-section/index.css';
+
+:root {
+  --white: #fff;
+  --black: #292F36;
+  --purple: #9e6cff;
+  --pink: #ff84ff;
+  --blue: #3973D0;
+
+  --text-color: var(--black);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source_Sans_3';
+  line-height: 1;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 2.125rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.subtitle {
+  font-family: 'Fira_Sans_Condensed';
+  font-size: 1.8rem;
+}
+

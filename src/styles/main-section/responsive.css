@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+
+  .main-section_wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-section_image-wrapper {
+    --image-height: 800;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .main-section_content {
+    text-align: left;
+  }
+}
