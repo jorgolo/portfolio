@@ -15,11 +15,12 @@
     const distance = Math.sqrt(center.x**2 + center.y**2);
     
     $card.style.transform = `
+      scale3d(1.02, 1.02, 1.02)
       rotate3d(
-        ${-center.y / 10},
-        ${center.x / 10},
+        ${center.y / 100},
+        ${-center.x / 100},
         0,
-        ${Math.log(distance)* -2}deg
+        ${Math.log(distance)* 2}deg
       )
     `;
     

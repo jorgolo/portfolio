@@ -12,8 +12,11 @@
   --text-color: var(--black);
 }
 
-body {
+* {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
   font-family: 'Montserrat';
   font-size: 16px;

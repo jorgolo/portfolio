@@ -10,15 +10,16 @@
   width: calc(100% - 15px * 2);
   max-width: 738px;
   margin: 0 auto;
+  perspective: 1500px;
 }
 
 .main-section_image-wrapper {
-  --image-width: 670;
-  --image-height: 580;
+  --image-width: 300;
+  --image-height: 400;
   position: relative;
-  max-width: 335px;
+  max-width: 300px;
   border-radius: 5px;
-  box-shadow: -3px -1px 5px 0px rgb(0 0 0 / 30%);
+  box-shadow: 0 1px 5px #00000099;
   margin: 0 auto;
   transition-duration: 300ms;
   transition-property: transform, box-shadow;
@@ -31,12 +32,13 @@
     height: 100%;
     left: 0;
     top: 0;
-    opacity: 0.2;
+    background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
+    opacity: 0.5;
   }
 
   &:hover {
     transition-duration: 150ms;
-    box-shadow: -3px -1px 20px 0px rgb(0 0 0 / 30%);
+    box-shadow: 0 5px 20px 5px #00000044;
   }
 }
 
