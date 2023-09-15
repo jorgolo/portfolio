@@ -4,27 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+
+  <link rel="preload" href="assets/css/bundle.critical.css" as="style" />
+  <link rel="preload" href="assets/js/bundle.critical.js" as="script" />
+
   <link rel="stylesheet" href="assets/css/bundle.critical.css">
-  <script src="assets/js/bundle.critical.js" defer></script>
+  <link rel="stylesheet" href="assets/css/bundle.about-us.css">
+  
 </head>
 
 <body>
-  <header>
-  </header>
-
-  <main>
-    <section class="main-section">
+  <main class="main">
+    <section class="main-section section-full-height">
 
       <div class="main-section_wrapper">
 
         <div class="main-section_image-wrapper image-responsive-wrapper">
-          <img src="assets/images/profile-v2.jpg" alt="Hola! Me llamo Jorge Mauricio Rodriguez Patiño">
+          <img src="assets/images/profile-v2.jpg" alt="Hola! Me llamo Jorge Mauricio Rodriguez Patiño" fetchpriority="high">
           <div class="glow"></div>
         </div>
 
         <div class="main-section_content">
           <header>
-            <h1>Hi!, my name is <b>Jorge Rodriguez</b></h1>
+            <h1>Hi!, my name is <b>Jorge</b></h1>
             <p class="subtitle">I'm a Web Developer</p>
           </header>
         </div>
@@ -32,9 +34,26 @@
       </div>
 
     </section>
+
+    <section class="about-section section-full-height">
+      <header class="about-header">
+        <h2>About</h2>
+      </header>
+
+      <div class="about-container">
+        <p>
+          I am a results-driven Front-End Web Developer with expertise in Shopify and a strong focus on responsive and mobile-first web design. With a background in front-end development, I have effectively customized Shopify themes, leveraged Liquid template language, and integrated third-party apps to create visually appealing and high-performing e-commerce websites. My commitment to user-friendly design and meticulous attention to detail has contributed to enhanced user experiences and increased online sales.
+        </p>
+        <p>
+          My proficiency in HTML5, CSS3, and JavaScript, coupled with a keen eye for design, enables me to implement responsive design techniques, ensuring seamless functionality across various devices. I am well-versed in web performance optimization, cross-browser compatibility, and web accessibility standards.
+        </p>
+      </div>
+    </section>
   </main>
 
   <footer>
   </footer>
+
+  <script src="assets/js/bundle.critical.js" defer></script>
 </body>
 </html>

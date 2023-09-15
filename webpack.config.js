@@ -51,7 +51,8 @@ const js_configuration = {
 const css_configuration = {
   name: "styles",
   entry: {
-    'critical': path.resolve('./src/styles/main.css'),
+    'critical': path.resolve('./src/styles/critical.css'),
+    'about-us': path.resolve('./src/styles/about-us-section/index.css'),
   },
   output: {
     path: path.resolve('./dist/assets/css/' ),
