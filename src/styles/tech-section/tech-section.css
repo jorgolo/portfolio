@@ -1,0 +1,33 @@
+.tech-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--main-gradient);
+}
+
+.tech-container {
+  width: 100%;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 15px;
+  justify-content: center;
+  width: calc(100% - 50px);
+  margin: 0 auto;
+  max-width: 650px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  & img {
+    max-width: 40px;
+    height: auto;
+  }
+}

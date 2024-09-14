@@ -53,6 +53,7 @@ const css_configuration = {
   entry: {
     'critical': path.resolve('./src/styles/critical.css'),
     'about-us': path.resolve('./src/styles/about-us-section/index.css'),
+    'tech-section': path.resolve('./src/styles/tech-section/index.css'),
   },
   output: {
     path: path.resolve('./dist/assets/css/' ),

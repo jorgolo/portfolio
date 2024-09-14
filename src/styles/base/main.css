@@ -6,6 +6,7 @@
   --blue: #3973D0;
 
   --text-color: var(--black);
+  --main-gradient: linear-gradient(282deg, var(--pink) 0%, var(--purple) 94%);;
 }
 
 * {
